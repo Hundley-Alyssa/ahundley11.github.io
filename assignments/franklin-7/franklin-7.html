@@ -1,5 +1,5 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
@@ -10,9 +10,9 @@
   <!-- external style references in the proper cascading order -->    
   <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
-  <link href="styles/main-7" rel="stylesheet">    <!-- default styles - small/phone views -->
-  <link href="styles/medium-7" rel="stylesheet">  <!-- medium/tablet views -->
-  <link href="styles/large-7" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="styles/main-7.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium-7.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large-7.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
 </head>
 <body>
 
@@ -24,7 +24,7 @@
 
   <!-- site navigation use placeholder references -->
   <nav>
-    <button onclick="toggleNavMenu()">&#9776;</button>
+<!--    <button onclick="toggleNavMenu()">&#9776;</button>-->
     <ul>
     	<li><a href="#">Home</a></li>
     	<li class="active"><a href="#">Franklin</a></li>
@@ -36,9 +36,9 @@
   </nav>
     
   <main>
-      <section>
+      <section class="daily">
           <picture class="sunny">
-            <img src="images/franklin_sun.jpeg" alt="" width="400px">
+            <img src="images/franklin_sun.jpeg" alt="" width="400px" height="300px">
           </picture>
         <div class="summary-wrapper">   
             <div style="width:100%; text-align: center;">
@@ -50,19 +50,14 @@
                 <img src="images/umbrellas.jpeg" alt="umbrellas" height="90px" width="90px">
             </figure>  
             <div class="current">
-                <p>Sunny
-                <br>
-                High: <b>90&deg;F</b>
-                <br>
-                Low: <b>66&deg;F</b>
-                </p>
+                <p>Sunny</p>
+                <p>High: <b>90&deg;F</b></p>
+                <p>Low: <b>66&deg;F</b></p>
             </div>
                 
             <div class="precipitation">
                 <p>
-                    Precipitation: <b>0%</b>
-                    <br>
-                    Wind Speed: <b>5 mpg SW</b>
+                    Precipitation: <b>0%</b>Wind Speed: <b>5 mpg SW</b> Wind Chill: <b></b>
                 </p>
             </div>
                 
@@ -105,11 +100,13 @@
     </section>
       
     <article>
-      <h3>Franklin Breaks Record</h3>	
+      <h3>Franklin Breaks Record</h3>
+    <section class="article-content">
       <p class="town-article">
         short article content placeholder
       </p>
         <img src="images/city.jpeg" alt="" width="" height="">
+    </section>
       </article>		  
   
   </main>
