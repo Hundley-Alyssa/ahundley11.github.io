@@ -28,6 +28,7 @@ header h1 {
     font-size: 3em;
 }
 header img {}
+
 header .subheading {
     font-size: 1em;
 }
@@ -164,6 +165,10 @@ footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
+
+.all-pics{
+    display: grid;
+}
 
 .pictures{
     width: 400px;

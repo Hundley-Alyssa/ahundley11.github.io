@@ -34,6 +34,12 @@ section.forecast {
 table{
     background-color: azure;
     width: 100%;
+    }
+.all-pics{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
   
     /* show the 10-day forecast with the medium view and up */
   
