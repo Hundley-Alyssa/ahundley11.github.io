@@ -16,13 +16,10 @@ header, nav, main, footer {
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
-main{
-    
-}
 
 header {
     display: flex;
-    font-size: 16px;
+    font-size: 12px;
     align-content: center;
     padding-left: 17%;
     padding-right: 10%; 
@@ -34,10 +31,14 @@ header {
 header h1 {
     font-size: 3em;
 }
-header img {}
+header img {
+    width: auto;
+    height: 100px;
+    
+}
 
 header .subheading {
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 nav {}
@@ -82,9 +83,10 @@ nav ul li a:hover {
 .summary-wrapper{
     display: flex;
     flex-wrap: wrap;
-    text-align: left;
+/*    text-align: left;*/
     max-width: 390px;
     width:100%; 
+    align-content: center;
     text-align: center;
 }
 
@@ -121,13 +123,8 @@ section.forecast {
     display: none;
 }
 
-/*.forecast h3{*/
-    display: none;
-    
-}
 table{
     display: none;
-    
 }
 
 article {
