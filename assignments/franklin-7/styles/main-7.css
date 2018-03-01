@@ -60,11 +60,11 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li.active a {
-    background-color: aqua;
+    background-color: navy;
     color: white;
 }
 nav ul li a:hover {
-    background-color: aquamarine;
+    background-color: skyblue;
     color: #fff;
 }
 .daily{
@@ -155,7 +155,7 @@ article img{
 }
 
 .contact-info{
-    background-color: azure;
+    background-color: #f1f1f1;
     height: auto;
     padding-bottom: 0px;
 }
