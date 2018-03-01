@@ -68,7 +68,8 @@ nav ul li a:hover {
     flex-basis: 600px;
 }
 .sunny{
-    display: flex;
+    width: 50%;
+    height: auto;
 }
 
 .summary-wrapper{
@@ -134,7 +135,8 @@ article {
     display: flex;
     vertical-align: top;
     text-align: center;
-     max-width: 390px;
+    max-width: 390px;
+    font-size: 20px; 
 }
 
 article img{
