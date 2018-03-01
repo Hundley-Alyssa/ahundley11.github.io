@@ -31,7 +31,7 @@ table{
     }
 .all-pics{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 270px 270px 270px;
 }
 
 /*

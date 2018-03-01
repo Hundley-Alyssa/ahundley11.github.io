@@ -171,5 +171,6 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 }
 
 .pictures{
-    width: 400px;
+    width: 100%;
+    height: auto;
 }
