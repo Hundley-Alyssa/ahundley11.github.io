@@ -45,7 +45,19 @@ section.forecast {
 table{
     background-color: azure;
     width: 100%;
-    }
+    display: flex;
+    flex-wrap: wrap; 
+}
+table thead tr th{
+    display: flex;
+    flex-direction: column;  
+    flex-grow: 1 1 1 1 1 1 1 1 1 1;
+} 
+table tbody tr td{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1 1 1 1 1 1 1 1 1 1;
+}
 .all-pics{
     display: grid;
     grid-template-columns: 50% 50%;
