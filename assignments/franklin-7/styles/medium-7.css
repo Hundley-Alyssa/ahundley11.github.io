@@ -29,11 +29,10 @@ nav ul li{
 
     
 section.forecast { 
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
+    display: block;
+/*    flex-wrap: wrap;*/
+/*    padding-bottom: 20px;*/
 }
-
 
 .forecast h3{
     background-color: gray;
@@ -45,18 +44,10 @@ section.forecast {
 table{
     background-color: azure;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap; 
+    display: flex; 
+    flex-direction: row;
 }
-table thead tr th{
-    display: flex;
-    flex-direction: column;  
-    flex-grow: 1 1 1 1 1 1 1 1 1 1;
-} 
-table tbody tr td{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1 1 1 1 1 1 1 1 1 1;
+    
 }
 .all-pics{
     display: grid;
