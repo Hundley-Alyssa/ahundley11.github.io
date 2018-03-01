@@ -84,6 +84,8 @@ nav ul li a:hover {
     flex-wrap: wrap;
     text-align: left;
     max-width: 390px;
+    width:100%; 
+    text-align: center;
 }
 
 .summary-wrapper h2{
@@ -92,6 +94,8 @@ nav ul li a:hover {
 
 .summary-wrapper figure{
     display: flex;
+    width: 90px;
+    height: auto;
 }
 
 .summary-wrapper p{
@@ -148,15 +152,9 @@ article {
 
 article img{
     display: flex;
-/*    width: 100%;*/
+/*  width: 100%;*/
     padding-bottom: 20px;
    
-}
-section {}
-
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
 }
 
 .contact-info{
