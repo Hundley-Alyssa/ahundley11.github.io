@@ -8,7 +8,7 @@
   <meta name="author" content="Alyssa Hundley">
   <meta name="description" content="page description placeholder">
   <!-- external style references in the proper cascading order -->  
-  <script src="scripts/windchill.js"></script>
+<!--  <script src="scripts/windchill.js"></script>-->
   <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
   <link href="styles/main-7.css" rel="stylesheet">    <!-- default styles - small/phone views -->
@@ -52,16 +52,19 @@
             </figure>  
             <div class="current">
                 <p>Sunny</p>
-                <p>High: <b id="high">90&deg;F</b></p>
-                <p>Low: <b id="low">66&deg;F</b></p>
+                <p>High: <span id="high">90</span>&deg;F</p>
+                <p>Low: <span id="low">66</span>&deg;F</p>
             </div>
                 
             <div class="precipitation">
                 <p>
-                    Precipitation: <b>0%</b>Wind Speed: <b id ="windSpeed">5 mpg SW</b> Wind Chill: <b id="windChill"></b>
+                    Precipitation: <span>0%</span>
                 </p>
-            </div>
+                <p>Wind Speed: <span id="windSpeed">5</span>mpg SW</p>    
+                <p>Wind Chill: <span id="windChill"></span></p>
                 
+            </div>
+             
         </div>   
         
       </section>
@@ -125,8 +128,11 @@
     <p class="footer-bar">&copy;2017 All Rights Reserved | The Daily Forcast | <span id="currentdate">Current Date Placeholder</span></p>
   </footer>
 
-  <script src="scripts/hamburger.js"></script>
-  <script src="scripts/currentdate.js"></script>
+<!--  <script src="scripts/hamburger.js"></script>-->
+<!--  <script src="scripts/currentdate.js"></script>-->
+  <script type="text/javascript" src="scripts/windchill.js"></script>
 
 </body>
+    
+    
 </html>
