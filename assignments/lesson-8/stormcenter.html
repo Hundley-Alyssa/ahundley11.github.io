@@ -20,7 +20,7 @@
   <header class="header">
     <img src="images/logo.jpeg" alt="The site logo">
     <section class="header-bar">
-        <h1 style="font-family: 'Roboto Condensed', sans-serif">The Daily Forcast</h1>
+        <h1>The Daily Forcast</h1>
         <div class="subheading">Weather you like it or not</div>
     </section>
   </header>
@@ -40,15 +40,18 @@
     	<li class="#"><a href="gallery-7.html">Gallery</a></li>
     </ul>		
   </nav>
-    <form>
+    <h1 class="stormReport">Please fill out the form below to report a local storm</h1>
+    <form action="https://ahundley11.github.io/assignments/lesson-8/thanks.html" method="post">
+        <h2>Personal Information</h2>
+        <label class="personal"><span>Full Name:</span><input name="fullName" type="text" value="" pattern="[a-zA-Z]{5,100}" required></label>
+        <label class="personal"><span>Email:</span><input name="email" type="email" value="" placeholder="example@123.com"></label>
+        <label class="personal"><span>Phone Number:</span><input name="phoneNumber" type="tel" value="" required></label>
+        <label class="personal"><span>Zip Code:</span><input name="zip" type="number" value="" required></label>
         
-        <label><span>Full Name:</span><input name="fullName" type="text" value="" pattern="[a-zA-Z]{5,100}" required></label>
-        <label><span>Email:</span><input name="email" type="email" value="" placeholder="example@123.com"></label>
-        <label><span>Phone Number:</span><input name="phoneNumber" type="tel" value="" required></label>
-        <label><span>Zip Code:</span><input name="zip" type="number" value="" required></label>
-        <label><span>Storm Date:</span><input name="date" type="date" value=""></label>
+        <h2>Storm Information</h2>
+        <label class="storm"><span>Storm Date:</span><input name="date" type="date" value=""></label>
         
-        <label><span>Storm Type:</span><input name="type" type="text" list="stormType" required></label>
+        <label class="storm"><span>Storm Type:</span><input name="type" type="text" list="stormType" required></label>
         <datalist id="stormType">
             <option value="Flash Flood"></option>
             <option value="Hail"></option>
@@ -57,10 +60,10 @@
             <option value="Tornado"></option>
         </datalist>
         
-        <label><span>Storm Severity (1-10):</span><input name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span class="rating" id="ratingvalue">5</span></label>
+        <label class="storm"><span>Storm Severity (1-10):</span><input name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span class="rating" id="ratingvalue">5</span></label>
         
         
-        <label><span>Storm Region:</span><input name="region" type="text" list="stormRegion" required></label>
+        <label class="storm"><span>Storm Region:</span><input name="region" type="text" list="stormRegion" required></label>
         <datalist id="stormRegion">
             <option value="Select Region..." disabled="disabled">Select Region...</option>
             <option value="Franklin">Franklin</option>
@@ -68,15 +71,15 @@
             <option value="Springfield">Springfield</option>
         </datalist>
         
-        <label><span>User In-Danger Level:</span></label>
-            <label><input name="danger" type="radio" value="Yes">Yes</label>
-            <label><input name="danger" type="radio" value="Maybe">Maybe</label>
-            <label><input name="danger" type="radio" value="No">No</label>
+        <label class="storm"><span>User In-Danger Level:</span></label>
+            <label class="storm"><input name="danger" type="radio" value="Yes">Yes</label>
+            <label class="storm"><input name="danger" type="radio" value="Maybe">Maybe</label>
+            <label class="storm"><input name="danger" type="radio" value="No">No</label>
         
-       <label><span>Additional Information</span></label>
+       <label class="storm"><span>Additional Information</span></label>
         <textarea rows="4" cols="50"></textarea>
         
-        <label><input class="addition" type="submit" value="Submit"></label>
+        <label><input name = "submitButton" class="addition" type="submit" value="thanks.html"></label>
         
     </form>
     

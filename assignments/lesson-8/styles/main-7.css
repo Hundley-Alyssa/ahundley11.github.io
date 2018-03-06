@@ -25,6 +25,7 @@ header {
     padding-right: 10%; 
 }
 .header-bar{
+    font-family: Roboto Condensed, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -205,4 +206,21 @@ label span{
     display: inline-block;
 }
 
+.stormReport{
+    font-family: Roboto Condensed, sans-serif;
+}
 
+form h2{
+    font-family: Roboto Condensed, sans-serif;
+    text-align: left;
+    text-align: left;
+    border: 2px solid navy;
+    padding: 10px;
+    
+}
+.personal{
+    background-color: azure;
+}
+.storm{
+    background-color: azure;
+}
