@@ -224,3 +224,13 @@ form h2{
 .storm{
     background-color: azure;
 }
+form select{
+    font-family: Roboto Condensed, sans-serif;
+    display:flex;
+    align-content: flex-start;
+}
+#textInput{
+    display:flex;
+    align-content: flex-start;
+   
+}

@@ -41,7 +41,7 @@
     </ul>		
   </nav>
     <h1 class="stormReport">Please fill out the form below to report a local storm</h1>
-    <form action="https://ahundley11.github.io/assignments/lesson-8/thanks.html" method="post">
+    <form action="https://ahundley11.github.io/assignments/lesson-8/thanks.html" nonvalidate>
         <h2>Personal Information</h2>
         <label class="personal"><span>Full Name:</span><input name="fullName" type="text" value="" pattern="[a-zA-Z]{5,100}" required></label>
         <label class="personal"><span>Email:</span><input name="email" type="email" value="" placeholder="example@123.com"></label>
@@ -63,13 +63,13 @@
         <label class="storm"><span>Storm Severity (1-10):</span><input name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span class="rating" id="ratingvalue">5</span></label>
         
         
-        <label class="storm"><span>Storm Region:</span><input name="region" type="text" list="stormRegion" required></label>
-        <datalist id="stormRegion">
+        <label class="storm" name="region"><span>Storm Region:</span></label>
+        <select>
             <option value="Select Region..." disabled="disabled">Select Region...</option>
             <option value="Franklin">Franklin</option>
             <option value="Greenville">Greenville</option>
             <option value="Springfield">Springfield</option>
-        </datalist>
+        </select>
         
         <label class="storm"><span>User In-Danger Level:</span></label>
             <label class="storm"><input name="danger" type="radio" value="Yes">Yes</label>
@@ -77,9 +77,9 @@
             <label class="storm"><input name="danger" type="radio" value="No">No</label>
         
        <label class="storm"><span>Additional Information</span></label>
-        <textarea rows="4" cols="50"></textarea>
+        <textarea id="textInput" rows="4" cols="50"></textarea>
         
-        <label><input name = "submitButton" class="addition" type="submit" value="thanks.html"></label>
+        <label><input name = "submitButton" class="addition" type="submit" value="Submit"></label>
         
     </form>
     
