@@ -1,0 +1,40 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+nav button { display:none; }  /* hamburger button does not need to be shown */
+    
+header {
+    font-size: 16px;
+     
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+nav ul li{
+    display: flex;    
+}
+
+.sunny{
+   flex: 1 1 50%;     
+}
+
+.Summary-wrapper{
+    flex: 1 1 50%;    
+} 
+
+    
+section.forecast { 
+      display: block; 
+}
+
+    
+.all-pics{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
