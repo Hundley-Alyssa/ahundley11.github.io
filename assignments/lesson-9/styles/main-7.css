@@ -191,6 +191,10 @@ footer>p {} /* This structure refers to p elements that are direct children of t
     display: grid;
 }
 
+.cities{
+    display: none;
+}
+
 .pictures{
     width: 100%;
     height: auto;

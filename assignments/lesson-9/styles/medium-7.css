@@ -38,3 +38,7 @@ section.forecast {
     grid-template-columns: 50% 50%;
 }
 
+.cities{
+   display: block;
+}
+
