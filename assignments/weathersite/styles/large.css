@@ -47,9 +47,10 @@ nav ul{
     font-size: 20px;    
 }
 .article-content{
-    display: inline-block;
+    /*display: inline-block;*/
     flex-wrap: wrap;
     max-width: 266px;
+    min-width: 266px;
     flex-basis: 600px;    
 }
 

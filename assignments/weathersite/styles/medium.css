@@ -39,13 +39,22 @@ section.forecast {
 }
 
 .all-articles{
-   display: grid;
+    display: grid;
     grid-template-columns: 100%;
 }
 
 .index-pic1{
-        float: left;
+    float: left;
+    width: 200px;
 }
 .index-pic{
         float: right;
 }
+.article-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 600px;
+    flex-basis: 600px;    
+}
+
