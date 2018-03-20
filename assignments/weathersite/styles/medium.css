@@ -38,8 +38,14 @@ section.forecast {
     grid-template-columns: 50% 50%;
 }
 
-.article-content{
+.all-articles{
    display: grid;
     grid-template-columns: 100%;
 }
 
+.index-pic1{
+        float: left;
+}
+.index-pic{
+        float: right;
+}

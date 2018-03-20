@@ -149,18 +149,27 @@ article {
     border: 2px solid gray;
 }
 
-.article-content{
-    display: flex;
+/*.article-content{
+    display: inline-block;
     flex-wrap: wrap;
     min-width: 600px;
     flex-basis: 600px;    
-}
+}*/
 
 article{
     font-family: Roboto Condensed, sans-serif;
 }
 
+
+
 .town-article{
+    display: flex;
+    vertical-align: top;
+    text-align: center;
+    max-width: 390px;
+    font-size: 20px; 
+}
+.town-article1{
     display: flex;
     vertical-align: top;
     text-align: center;
@@ -197,7 +206,7 @@ footer>p {} /* This structure refers to p elements that are direct children of t
     display: grid;
 }
 
-.cities{
+.all-articles{
     display: none;
 }
 

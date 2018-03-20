@@ -35,6 +35,21 @@ nav ul{
     width: 200px;    
     height: 170px;    
 }
-.town-article{
-    font-size: 10px;    
+.index-pic1{
+    width: 200px;    
+    height: 170px;
+    float: none;
 }
+.town-article{
+    font-size: 20px;    
+}
+.town-article1{
+    font-size: 20px;    
+}
+.article-content{
+    display: inline-block;
+    flex-wrap: wrap;
+    max-width: 266px;
+    flex-basis: 600px;    
+}
+
