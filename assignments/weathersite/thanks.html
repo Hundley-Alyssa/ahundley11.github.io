@@ -1,1 +1,67 @@
-<p>test</p>
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Daily Forecast | Storm Center - Thank You</title>
+  <meta name="author" content="Alyssa Hundley">
+  <meta name="description" content="page description placeholder">
+  <!-- external style references in the proper cascading order -->  
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+</head>
+<body>
+
+  <header class="header">
+    <img src="images/sun-cloud.jpg" alt="The site logo">
+    <section class="header-bar">
+        <h1 style="font-family: 'Roboto Condensed', sans-serif">The Daily Forecast</h1>
+        <div class="subheading">Weather you like it or not</div>
+    </section>
+  </header>
+
+  <nav class = "navigation" id="topNav">
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    <ul>
+    	<li class="active"><a href="index.html">Home</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+      <div class="thanks">Thank you for the storm information.</div>
+      <img src="images/thanks.jpeg" alt="Storm Center thank you landscape">
+      
+  </main>
+    
+  <footer>
+    <aside class="contact-info">
+      The Daily Forecast
+      <br>
+      (555) 555-1234
+      <br>
+      123 E. 432 N.
+      <br>
+      Capital, Springton
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved | The Daily Forecast | <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/towndata.js"></script>
+
+</body>
+    
+    
+</html>
