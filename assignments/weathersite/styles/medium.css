@@ -74,13 +74,6 @@ section.forecast {
     grid-template-columns: 100%;
 }
 
-.index-pic1{
-    float: right;
-}
-.index-pic{
-        float: left;
-        
-}
 .article-content{
     display: flex;
     flex-direction: row;
@@ -101,5 +94,8 @@ section.forecast {
     flex-wrap: wrap;
     min-width: 600px;
     flex-basis: 600px;    
+}
+.town-article{
+        width: 50%;
 }
 

@@ -138,16 +138,13 @@ nav ul li a:hover {
     padding-left: 30px;
 }
 
-
-main {}
-main h2 {}
-/*main figure { margin: 0 0 .2rem 2%; width:96%; }*/
 main figure img {
     display: flex;
 }
 
 section.forecast { 
     display: none;
+    font-family: Roboto Condensed, sans-serif; 
 }
 
 table{
@@ -155,9 +152,12 @@ table{
 }
 
 .forecast h3{
-    background-color: gray;
+    background-color: navy;
     height: 50px;
     padding-top: 15px;
+    color: white;
+    margin-bottom: 0px;;
+    
 }
 table{
     background-color: azure;
@@ -165,12 +165,12 @@ table{
 }
 main div h3{
    font-family: Roboto Condensed, sans-serif; 
+    font-size: 30px;
 }
 .town-article{
     /*display: flex;*/
     vertical-align: top;
     text-align: center;
-    width: 50%;
     max-width: 390px;
     font-size: 20px; 
 }
@@ -202,6 +202,7 @@ article img{
 .footer-bar{
     background-color: #f1f1f1;
     height: auto; 
+    margin-top: 0px;
 }
 footer {
     font-family: Roboto Condensed, sans-serif;
@@ -209,15 +210,20 @@ footer {
 
 .all-pics{
     display: grid;
+    margin: 5px;
 }
 
 .all-articles{
     display: none;
+    
 }
 
 .pictures{
     width: 100%;
     height: auto;
+}
+.pictures p{
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 label{
@@ -269,4 +275,12 @@ form select{
     border: 5px solid navy;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.index-pic{
+    margin-left: auto;
+    margin-right: auto;
+}
+article h3{
+    font-family: Roboto Condensed, sans-serif;
 }

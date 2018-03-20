@@ -41,7 +41,8 @@ nav ul{
     float: none;
 }
 .town-article{
-    font-size: 20px;    
+    font-size: 20px;
+    width: 100%;
 }
 .town-article1{
     font-size: 20px;    
@@ -49,8 +50,18 @@ nav ul{
 .article-content{
     /*display: inline-block;*/
     flex-wrap: wrap;
+    flex-direction: column;
     max-width: 266px;
     min-width: 266px;
     flex-basis: 600px;    
 }
+.article-content2{
+    /*display: inline-block;*/
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 266px;
+    min-width: 266px;
+    flex-basis: 600px;    
+}
+
 
