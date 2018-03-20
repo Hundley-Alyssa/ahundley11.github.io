@@ -75,10 +75,11 @@ section.forecast {
 }
 
 .index-pic1{
-    float: left;
+    float: right;
 }
 .index-pic{
-        float: right;
+        float: left;
+        
 }
 .article-content{
     display: flex;
@@ -90,6 +91,13 @@ section.forecast {
 .article-content1{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 600px;
+    flex-basis: 600px;    
+}
+.article-content2{
+    display: flex;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     min-width: 600px;
     flex-basis: 600px;    
