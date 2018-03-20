@@ -47,8 +47,12 @@ header .subheading {
     top: 2.0rem;
     right: 1.25rem; 
 }
-
-.navigation{
+.navigation.responsive a.hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+nav ul{
     display: none;
 }
 
