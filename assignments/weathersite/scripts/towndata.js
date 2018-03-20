@@ -1,4 +1,4 @@
-var requestURL = 'http://api.wunderground.com/api/6c6ac0c81e933c9a/conditions/q/SC/Greenville.json';
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 var request = new XMLHttpRequest();
 
@@ -7,19 +7,31 @@ request.open('GET', requestURL, true);
 request.send();
 
 request.onload = function(){
-    var greenvilleWeather = JSON.parse(request.responseText);
-    console.log(greenvilleWeather);
+    var data = JSON.parse(request.responseText);
+    console.log(data);
     
-    document.getElementById('weather').innerHTML = greenvilleWeather.current_observation.weather;
+    document.getElementById('franklinMotto').innerHTML = data.towns[0].motto;
     
-    document.getElementById('high').innerHTML = greenvilleWeather.current_observation.temp_f;
+    document.getElementById('franklinYear').innerHTML = data.towns[0].yearFounded;
     
-    document.getElementById('low').innerHTML = greenvilleWeather.current_observation.dewpoint_f;
+    document.getElementById('franklinPopulation').innerHTML = data.towns[0].currentPopulation;
     
-    document.getElementById('precipitation').innerHTML = greenvilleWeather.current_observation.precip_today_in;
+    document.getElementById('franklinRain').innerHTML = data.towns[0].averageRainfall;
     
-    document.getElementById('windSpeed').innerHTML = greenvilleWeather.current_observation.wind_mph;
+    document.getElementById('greenvilleMotto').innerHTML = data.towns[1].motto;
     
-    document.getElementById('windChill').innerHTML = greenvilleWeather.current_observation.windchill_f;
+    document.getElementById('greenvilleYear').innerHTML = data.towns[1].yearFounded;
     
+    document.getElementById('greenvillePopulation').innerHTML = data.towns[1].currentPopulation;
+    
+    document.getElementById('greenvilleRain').innerHTML = data.towns[1].averageRainfall;
+    
+    document.getElementById('springfieldMotto').innerHTML = data.towns[3].motto;
+    
+    document.getElementById('springfieldYear').innerHTML = data.towns[3].yearFounded;
+    
+    document.getElementById('springfieldPopulation').innerHTML = data.towns[3].currentPopulation;
+    
+    document.getElementById('springfieldRain').innerHTML = data.towns[3].averageRainfall;
 }
+
