@@ -20,6 +20,5 @@ request.onload = function(){
     
     document.getElementById('windSpeed').innerHTML = franklinWeather.current_observation.wind_mph;
     
-    document.getElementById('windChill').innerHTML = franklinWeather.current_observation.windchill_f;
     
 }

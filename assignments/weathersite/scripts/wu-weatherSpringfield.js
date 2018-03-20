@@ -20,6 +20,4 @@ request.onload = function(){
     
     document.getElementById('windSpeed').innerHTML = springfieldWeather.current_observation.wind_mph;
     
-    document.getElementById('windChill').innerHTML = springfieldWeather.current_observation.windchill_f;
-    
 }

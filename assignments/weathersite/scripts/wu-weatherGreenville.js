@@ -20,6 +20,4 @@ request.onload = function(){
     
     document.getElementById('windSpeed').innerHTML = greenvilleWeather.current_observation.wind_mph;
     
-    document.getElementById('windChill').innerHTML = greenvilleWeather.current_observation.windchill_f;
-    
 }
