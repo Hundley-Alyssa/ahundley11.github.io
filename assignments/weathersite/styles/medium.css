@@ -56,4 +56,11 @@ section.forecast {
     min-width: 600px;
     flex-basis: 600px;    
 }
+.article-content1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 600px;
+    flex-basis: 600px;    
+}
 
