@@ -143,18 +143,9 @@ table{
     background-color: azure;
     width: 100%;
 }
-
-
-article {
-    border: 2px solid gray;
+main div h3{
+   font-family: Roboto Condensed, sans-serif; 
 }
-
-
-
-article{
-    font-family: Roboto Condensed, sans-serif;
-}
-
 .town-article{
     /*display: flex;*/
     vertical-align: top;
@@ -170,11 +161,8 @@ article{
     font-size: 20px; 
 }
 .article-content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-width: 600px;
-    flex-basis: 600px;    
+    border: 2px solid gray;
+    font-family: Roboto Condensed, sans-serif;
 }
 article img{
     display: flex;
