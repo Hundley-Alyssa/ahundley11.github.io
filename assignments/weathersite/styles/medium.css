@@ -5,9 +5,10 @@
     }
     /* hamburger button does not need to be shown */
     header {
-        font-size: 16px;}
+        font-size: 16px;
+    }
 
-    .navigation { 
+    .navigation {
         display: flex;
         list-style-type: none;
         margin-top: 15px;
@@ -16,7 +17,7 @@
         background-color: #f1f1f1;
         font-family: Roboto Condensed, sans-serif;
     }
-   .navigation li {
+    .navigation li {
         text-align: center;
         display: flex;
         flex-grow: 1;
@@ -36,8 +37,8 @@
         background-color: skyblue;
         color: #fff;
     }
-    .hamburger { 
-        display: none;	
+    .hamburger {
+        display: none;
     }
     .sunny {
         flex: 1 1 50%;

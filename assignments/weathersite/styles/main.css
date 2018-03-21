@@ -77,10 +77,12 @@ header .subheading {
 .navigation.responsive li a:hover {
     background-color: skyblue;
 }
+
 .navigation.responsive li.active a {
-        background-color: navy;
-        color: white;
+    background-color: navy;
+    color: white;
 }
+
 .navigation {
     list-style: none;
     padding-left: 0;
@@ -155,7 +157,7 @@ section.forecast {
     padding-top: 15px;
     color: white;
     margin-bottom: 0px;
-    
+
 }
 
 table {
