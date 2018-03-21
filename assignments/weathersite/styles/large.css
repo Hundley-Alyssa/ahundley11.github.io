@@ -1,6 +1,15 @@
 @media only screen and (min-width: 64em) {
     /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
     /*  article p.town-article img { width: 29.333%; }*/
+    header,
+nav,
+main,
+footer {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
     header {
         font-size: 16px;
         padding-left: 9%;
@@ -19,6 +28,7 @@
     .all-articles {
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
+        align-content: center;
 
     }
 
@@ -32,27 +42,32 @@
         float: none;
     }
     .town-article {
-        font-size: 20px;
+        font-size: 25px;
         width: 100%;
+        max-width: 580px;
     }
     .town-article1 {
-        font-size: 20px;
+        font-size: 25px;
+        max-width: 580px;
     }
     .article-content {
-        /*display: inline-block;*/
         flex-wrap: wrap;
         flex-direction: column;
-        max-width: 266px;
-        min-width: 266px;
+        max-width: 332px;
+        min-width: 332px;
         flex-basis: 600px;
     }
     .article-content2 {
-        /*display: inline-block;*/
         flex-wrap: wrap;
         flex-direction: column;
-        max-width: 266px;
-        min-width: 266px;
+        max-width: 332px;
+        min-width: 332px;
         flex-basis: 600px;
     }
-
+.article-content1 {
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 1000px;
+/*        min-width: px;*/
+        flex-basis: 600px;
 }
