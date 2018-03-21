@@ -50,22 +50,8 @@ header .subheading {
 .hamburger {
     display: block;
     position: absolute;
-    top: 2.0rem;
-    right: 1.25rem;
-}
-
-.navigation.responsive { position: relative; }
-.navigation.responsive li { background-color: #eee;	display: block;	width: 100%; margin: 2px 0;	border: 1px solid #ddd; }
-.navigation.responsive li a {	padding: 1rem; text-align: center;	display: block; text-decoration:none; }
-.navigation.responsive li a:hover { background-color: #ddd; }
-
-/*
-.navigation.responsive a.hamburger {
-    position: absolute;
-}
-
-nav ul {
-    display: none;
+    top: 10.0rem;
+    left: 1.25rem;
 }
 
 .navigation.responsive {
@@ -73,42 +59,36 @@ nav ul {
 }
 
 .navigation.responsive li {
-    float: none;
-    display: block;
-    text-align: left;
-}
-*/
-
-/*
-nav ul {
-    display: inline-block;
     background-color: #f1f1f1;
+    display: block;
     width: 100%;
+    margin: 2px 0;
     font-family: Roboto Condensed, sans-serif;
-}
-nav ul li {
-    text-align: center;
-    display: flex;
-    flex-grow: 1;
-    border-bottom: #000;
-}
-nav ul li a {
-    margin: auto;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;  
+    color: black;
 }
 
+.navigation.responsive li a {
+    padding: 8px 16px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
 }
-nav ul li.active a {
-    background-color: navy;
-    color: white;
-}
-nav ul li a:hover {
+
+.navigation.responsive li a:hover {
     background-color: skyblue;
-    color: #fff;
 }
-*/
+.navigation.responsive li.active a {
+        background-color: navy;
+        color: white;
+}
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: none;
+}
 
 .daily {
     display: flex;
