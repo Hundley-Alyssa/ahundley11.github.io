@@ -17,15 +17,6 @@
         background-color: #f1f1f1;
         font-family: Roboto Condensed, sans-serif;
     }
-
-    /*
-nav ul {
-    display: inline-block;
-    background-color: #f1f1f1;
-    width: 100%;
-    font-family: Roboto Condensed, sans-serif;
-}
-*/
     nav ul li {
         text-align: center;
         display: flex;
@@ -48,8 +39,8 @@ nav ul {
         background-color: skyblue;
         color: #fff;
     }
-    .navigation .hamburger {
-        display: none;
+    .hamburger { 
+        display: none;	
     }
     .sunny {
         flex: 1 1 50%;

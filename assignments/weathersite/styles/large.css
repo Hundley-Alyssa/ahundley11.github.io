@@ -6,14 +6,6 @@
         padding-left: 9%;
         padding-right: 3%;
     }
-    nav ul {
-        display: flex;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        background-color: #f1f1f1;
-    }
 
     .all-pics {
         display: grid;
