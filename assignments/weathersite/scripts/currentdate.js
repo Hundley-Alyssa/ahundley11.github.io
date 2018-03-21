@@ -1,6 +1,6 @@
 var d = new Date();
 var weekday = new Array(7);
-weekday[0] =  "Sunday";
+weekday[0] = "Sunday";
 weekday[1] = "Monday";
 weekday[2] = "Tuesday";
 weekday[3] = "Wednesday";
@@ -10,7 +10,7 @@ weekday[6] = "Saturday";
 var dayOfWeek = weekday[d.getDay()];
 
 var e = new Date();
-var dateNumber  = e.getDate();
+var dateNumber = e.getDate();
 
 var f = new Date();
 var month = new Array();
@@ -31,4 +31,4 @@ var month = month[f.getMonth()];
 var g = new Date();
 var year = g.getFullYear();
 
-document.getElementById("currentdate").innerHTML = dayOfWeek + ", " + dateNumber+  " " + month + " "+ year;
+document.getElementById("currentdate").innerHTML = dayOfWeek + ", " + dateNumber + " " + month + " " + year;

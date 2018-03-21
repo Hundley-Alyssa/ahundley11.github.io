@@ -1,20 +1,27 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
-
-body {
-  font-size: 16px;
-    
-  /* Declare the base font-family - from google font api or other */
+* {
+    box-sizing: border-box;
 }
 
-header, nav, main, footer {
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     /* the comma means apply the following CSS declarations to all of the listed elements */
-  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
 header {
@@ -22,46 +29,54 @@ header {
     font-size: 12px;
     align-content: center;
     padding-left: 17%;
-    padding-right: 10%; 
+    padding-right: 10%;
 }
-.header-bar{
+
+.header-bar {
     font-family: Roboto Condensed, sans-serif;
     display: flex;
     flex-direction: column;
 }
+
 header h1 {
     font-size: 3em;
 }
+
 header img {
     width: auto;
     height: 100px;
-    
+
 }
 
 header .subheading {
     font-size: 1.4em;
 }
-.hamburger { 
+
+.hamburger {
     display: block;
     position: absolute;
     top: 2.0rem;
-    right: 1.25rem; 
+    right: 1.25rem;
 }
+
 .navigation.responsive a.hamburger {
     position: absolute;
 }
-nav ul{
+
+nav ul {
     display: none;
 }
 
-.navigation.responsive{
+.navigation.responsive {
     position: relative;
 }
-.navigation.responsive li{
+
+.navigation.responsive li {
     float: none;
     display: block;
     text-align: left;
 }
+
 /*
 nav ul {
     display: inline-block;
@@ -92,8 +107,9 @@ nav ul li a:hover {
     color: #fff;
 }
 */
-.daily{
-    display:flex;
+
+.daily {
+    display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -101,38 +117,41 @@ nav ul li a:hover {
     flex-basis: 600px;
     font-family: Roboto Condensed, sans-serif;
 }
-.sunny{
+
+.sunny {
     width: 50%;
     height: auto;
 }
 
-.summary-wrapper{
+.summary-wrapper {
     display: flex;
     flex-wrap: wrap;
-/*    text-align: left;*/
+    /*    text-align: left;*/
     max-width: 390px;
-    width:100%; 
+    width: 100%;
     align-content: center;
     text-align: center;
 }
 
-.summary-wrapper h2{
+.summary-wrapper h2 {
     text-align: center;
 }
 
-.summary-wrapper figure{
+.summary-wrapper figure {
     display: flex;
     width: 90px;
     height: auto;
 }
 
-.summary-wrapper p{
+.summary-wrapper p {
     display: flex;
     font-size: 20px;
 }
+
 .current {
     vertical-align: top;
 }
+
 .precipitation {
     text-align: center;
     padding-left: 30px;
@@ -142,133 +161,148 @@ main figure img {
     display: flex;
 }
 
-section.forecast { 
+section.forecast {
     display: none;
-    font-family: Roboto Condensed, sans-serif; 
+    font-family: Roboto Condensed, sans-serif;
 }
 
-table{
+table {}
 
-}
-
-.forecast h3{
+.forecast h3 {
     background-color: navy;
     height: 50px;
     padding-top: 15px;
     color: white;
-    margin-bottom: 0px;;
-    
+    margin-bottom: 0px;
+    ;
+
 }
-table{
+
+table {
     background-color: azure;
     width: 100%;
 }
-main div h3{
-   font-family: Roboto Condensed, sans-serif; 
+
+main div h3 {
+    font-family: Roboto Condensed, sans-serif;
     font-size: 30px;
 }
-.town-article{
+
+.town-article {
     /*display: flex;*/
     vertical-align: top;
     text-align: center;
     max-width: 390px;
-    font-size: 20px; 
-}
-.article-content{
-    border: 2px solid gray;
-    font-family: Roboto Condensed, sans-serif;
-}
-.article-content1{
-    border: 2px solid gray;
-    font-family: Roboto Condensed, sans-serif;
-}
-.article-content2{
-    border: 2px solid gray;
-    font-family: Roboto Condensed, sans-serif;
-}
-article img{
-    display: flex;
-/*  width: 100%;*/
-    padding-bottom: 20px;
-   
+    font-size: 20px;
 }
 
-.contact-info{
+.article-content {
+    border: 2px solid gray;
+    font-family: Roboto Condensed, sans-serif;
+}
+
+.article-content1 {
+    border: 2px solid gray;
+    font-family: Roboto Condensed, sans-serif;
+}
+
+.article-content2 {
+    border: 2px solid gray;
+    font-family: Roboto Condensed, sans-serif;
+}
+
+article img {
+    display: flex;
+    /*  width: 100%;*/
+    padding-bottom: 20px;
+
+}
+
+.contact-info {
     background-color: #f1f1f1;
     height: auto;
     padding-bottom: 0px;
 }
 
-.footer-bar{
+.footer-bar {
     background-color: #f1f1f1;
-    height: auto; 
+    height: auto;
     margin-top: 0px;
 }
+
 footer {
     font-family: Roboto Condensed, sans-serif;
 }
 
-.all-pics{
+.all-pics {
     display: grid;
     margin: 5px;
 }
 
-.all-articles{
+.all-articles {
     display: none;
-    
+
 }
 
-.pictures{
+.pictures {
     width: 100%;
     height: auto;
 }
-.pictures p{
+
+.pictures p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-label{
+label {
     display: block;
     padding-top: 10px;
     text-align: left;
     font-family: 'Roboto Condensed', sans-serif;
 }
-label span{
+
+label span {
     display: block;
     padding: 8px;
 }
-.rating{
+
+.rating {
     display: inline-block;
 }
 
-.stormReport{
+.stormReport {
     font-family: Roboto Condensed, sans-serif;
 }
 
-form h2{
+form h2 {
     font-family: Roboto Condensed, sans-serif;
     text-align: left;
     text-align: left;
     border: 2px solid navy;
     padding: 10px;
-    
+
 }
-.personal{
+
+.personal {
     background-color: azure;
 }
-.storm{
+
+.storm {
     background-color: azure;
 }
-form select{
+
+form select {
     font-family: Roboto Condensed, sans-serif;
-    display:flex;
+    display: flex;
     align-content: flex-start;
 }
-#textInput{
-    display:flex;
+
+#textInput {
+    display: flex;
     align-content: flex-start;
-   
+
 }
-.thanks{
+
+.thanks {
     font-family: Roboto Condensed, sans-serif;
     font-size: 50px;
     padding: 40px;
@@ -277,13 +311,15 @@ form select{
     margin-bottom: 20px;
 }
 
-.index-pic{
+.index-pic {
     margin-left: auto;
     margin-right: auto;
 }
-article h3{
+
+article h3 {
     font-family: Roboto Condensed, sans-serif;
 }
-#weather{
+
+#weather {
     font-size: 20px
 }

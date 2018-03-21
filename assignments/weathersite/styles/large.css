@@ -1,67 +1,66 @@
 @media only screen and (min-width: 64em) {
-  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
-  
-/*  article p.town-article img { width: 29.333%; }*/
-header {
-    font-size: 16px;
-    padding-left: 9%;
-    padding-right: 3%;   
-}   
-nav ul{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #f1f1f1;
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    /*  article p.town-article img { width: 29.333%; }*/
+    header {
+        font-size: 16px;
+        padding-left: 9%;
+        padding-right: 3%;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #f1f1f1;
     }
 
-.all-pics{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-}
+    .all-pics {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
 
-.pictures:hover{
-    box-shadow: 5px 5px 10px gray;
-}
+    .pictures:hover {
+        box-shadow: 5px 5px 10px gray;
+    }
 
-.all-articles{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    
-}
+    .all-articles {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
 
-.index-pic{
-    width: 200px;    
-    height: 170px;    
-}
-.index-pic1{
-    width: 200px;    
-    height: 170px;
-    float: none;
-}
-.town-article{
-    font-size: 20px;
-    width: 100%;
-}
-.town-article1{
-    font-size: 20px;    
-}
-.article-content{
-    /*display: inline-block;*/
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 266px;
-    min-width: 266px;
-    flex-basis: 600px;    
-}
-.article-content2{
-    /*display: inline-block;*/
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 266px;
-    min-width: 266px;
-    flex-basis: 600px;    
-}
+    }
 
+    .index-pic {
+        width: 200px;
+        height: 170px;
+    }
+    .index-pic1 {
+        width: 200px;
+        height: 170px;
+        float: none;
+    }
+    .town-article {
+        font-size: 20px;
+        width: 100%;
+    }
+    .town-article1 {
+        font-size: 20px;
+    }
+    .article-content {
+        /*display: inline-block;*/
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 266px;
+        min-width: 266px;
+        flex-basis: 600px;
+    }
+    .article-content2 {
+        /*display: inline-block;*/
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 266px;
+        min-width: 266px;
+        flex-basis: 600px;
+    }
 
+}

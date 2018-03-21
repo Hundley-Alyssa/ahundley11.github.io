@@ -6,18 +6,18 @@ request.open('GET', requestURL, true);
 
 request.send();
 
-request.onload = function(){
+request.onload = function () {
     var greenvilleWeather = JSON.parse(request.responseText);
     console.log(greenvilleWeather);
-    
+
     document.getElementById('weather').innerHTML = greenvilleWeather.current_observation.weather;
-    
+
     document.getElementById('high').innerHTML = greenvilleWeather.current_observation.temp_f;
-    
+
     document.getElementById('low').innerHTML = greenvilleWeather.current_observation.dewpoint_f;
-    
+
     document.getElementById('precipitation').innerHTML = greenvilleWeather.current_observation.precip_today_in;
-    
+
     document.getElementById('windSpeed').innerHTML = greenvilleWeather.current_observation.wind_mph;
-    
+
 }

@@ -6,4 +6,4 @@ function toggleHam() {
     } else {
         x.className = "navigation";
     }
-}	
+}

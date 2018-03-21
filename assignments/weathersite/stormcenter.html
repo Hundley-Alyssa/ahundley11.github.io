@@ -1,103 +1,107 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Daily Forecast | Weather Gallery</title>
-  <meta name="author" content="Alyssa Hundley">
-  <meta name="description" content="page description placeholder">
-  <!-- external style references in the proper cascading order -->  
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">  <!-- Google API font reference -->
-  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
-  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
-  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
-  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Daily Forecast | Weather Gallery</title>
+    <meta name="author" content="Alyssa Hundley">
+    <meta name="description" content="page description placeholder">
+    <!-- external style references in the proper cascading order -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
 </head>
+
 <body>
 
-  <header class="header">
-    <img src="images/sun-cloud.jpg" alt="The site logo">
-    <section class="header-bar">
-        <h1>The Daily Forecast</h1>
-        <div class="subheading">Weather you like it or not</div>
-    </section>
-  </header>
+    <header class="header">
+        <img src="images/sun-cloud.jpg" alt="The site logo">
+        <section class="header-bar">
+            <h1>The Daily Forecast</h1>
+            <div class="subheading">Weather you like it or not</div>
+        </section>
+    </header>
 
-  <!-- site navigation use placeholder references -->
-  
-<main>
-  <!-- site navigation use placeholder references -->
-  <nav>
-<!--    <button onclick="toggleNavMenu()">&#9776;</button>-->
-    <ul>
-    	<li><a href="index.html">Home</a></li>
-    	<li><a href="franklin.html">Franklin</a></li>
-    	<li><a href="greenville.html">Greenville</a></li>
-    	<li><a href="springfield.html">Springfield</a></li>
-    	<li class="active"><a href="stormcenter.html">Storm Center</a></li>
-    	<li><a href="gallery.html">Gallery</a></li>
-    </ul>		
-  </nav>
-    <h1 class="stormReport">Please fill out the form below to report a local storm</h1>
-    <form action="https://ahundley11.github.io/assignments/lesson-8/thanks.html" nonvalidate>
-        <h2>Personal Information</h2>
-        <label class="personal"><span>Full Name:</span><input name="fullName" type="text" value="" pattern="[a-zA-Z]{5,100}" required></label>
-        <label class="personal"><span>Email:</span><input name="email" type="email" value="" placeholder="example@123.com"></label>
-        <label class="personal"><span>Phone Number:</span><input name="phoneNumber" type="tel" value="" required></label>
-        <label class="personal"><span>Zip Code:</span><input name="zip" type="number" value="" required></label>
-        
-        <h2>Storm Information</h2>
-        <label class="storm"><span>Storm Date:</span><input name="date" type="date" value=""></label>
-        
-        <label class="storm"><span>Storm Type:</span><input name="type" type="text" list="stormType" required></label>
-        <datalist id="stormType">
+    <!-- site navigation use placeholder references -->
+
+    <main>
+        <!-- site navigation use placeholder references -->
+        <nav>
+            <!--    <button onclick="toggleNavMenu()">&#9776;</button>-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <h1 class="stormReport">Please fill out the form below to report a local storm</h1>
+        <form action="https://ahundley11.github.io/assignments/weathersite/thanks.html" nonvalidate>
+            <h2>Personal Information</h2>
+            <label class="personal"><span>Full Name:</span><input name="fullName" type="text" value="" pattern="[a-zA-Z]{5,100}" required></label>
+            <label class="personal"><span>Email:</span><input name="email" type="email" value="" placeholder="example@123.com"></label>
+            <label class="personal"><span>Phone Number:</span><input name="phoneNumber" type="tel" value="" required></label>
+            <label class="personal"><span>Zip Code:</span><input name="zip" type="number" value="" required></label>
+
+            <h2>Storm Information</h2>
+            <label class="storm"><span>Storm Date:</span><input name="date" type="date" value=""></label>
+
+            <label class="storm"><span>Storm Type:</span><input name="type" type="text" list="stormType" required></label>
+            <datalist id="stormType">
             <option value="Flash Flood"></option>
             <option value="Hail"></option>
             <option value="Hurricane"></option>
             <option value="Thunderstorm"></option>
             <option value="Tornado"></option>
         </datalist>
-        
-        <label class="storm"><span>Storm Severity (1-10):</span><input name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span class="rating" id="ratingvalue">5</span></label>
-        
-        
-        <label class="storm" name="region"><span>Storm Region:</span></label>
-        <select>
+
+            <label class="storm"><span>Storm Severity (1-10):</span><input name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span class="rating" id="ratingvalue">5</span></label>
+
+
+            <label class="storm"><span>Storm Region:</span></label>
+            <select>
             <option value="Select Region..." disabled="disabled">Select Region...</option>
             <option value="Franklin">Franklin</option>
             <option value="Greenville">Greenville</option>
             <option value="Springfield">Springfield</option>
         </select>
-        
-        <label class="storm"><span>User In-Danger Level:</span></label>
+
+            <label class="storm"><span>User In-Danger Level:</span></label>
             <label class="storm"><input name="danger" type="radio" value="Yes">Yes</label>
             <label class="storm"><input name="danger" type="radio" value="Maybe">Maybe</label>
             <label class="storm"><input name="danger" type="radio" value="No">No</label>
-        
-       <label class="storm"><span>Additional Information</span></label>
-        <textarea id="textInput" rows="4" cols="50"></textarea>
-        
-        <label><input name = "submitButton" class="addition" type="submit" value="Submit"></label>
-        
-    </form>
-    
-</main>
+
+            <label class="storm"><span>Additional Information</span></label>
+            <textarea id="textInput" rows="4" cols="50"></textarea>
+
+            <label><input name = "submitButton" class="addition" type="submit" value="Submit"></label>
+
+        </form>
+
+    </main>
     <footer>
-    <aside class="contact-info">
-      The Daily Forecast
-      <br>
-      (555) 555-5555
-      <br>
-      1234 N. 56 S.
-      <br>
-      Forcast City, Springton
-    </aside>
-    <p class="footer-bar">&copy;2017 All Rights Reserved | The Daily Forecast | <span id="currentdate">Current Date Placeholder</span></p>
-  </footer>
-    
+        <aside class="contact-info">
+            The Daily Forecast
+            <br> (555) 555-5555
+            <br> 1234 N. 56 S.
+            <br> Forcast City, Springton
+        </aside>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | The Daily Forecast | <span id="currentdate">Current Date Placeholder</span></p>
+    </footer>
+
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/storm.js"></script>
 </body>
+
 </html>
