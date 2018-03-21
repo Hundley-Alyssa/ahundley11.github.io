@@ -278,6 +278,10 @@ form select {
     align-content: flex-start;
 }
 
+.padding{
+    padding: 5px;
+}
+
 #textInput {
     display: flex;
     align-content: flex-start;

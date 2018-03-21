@@ -48,15 +48,15 @@
         <h1 class="stormReport">Please fill out the form below to report a local storm</h1>
         <form action="https://ahundley11.github.io/assignments/weathersite/thanks.html" nonvalidate>
             <h2>Personal Information</h2>
-            <label class="personal"><span>Full Name:</span><input name="fullName" type="text" value="" pattern="[a-zA-Z]{5,100}" required></label>
-            <label class="personal"><span>Email:</span><input name="email" type="email" value="" placeholder="example@123.com"></label>
-            <label class="personal"><span>Phone Number:</span><input name="phoneNumber" type="tel" value="" required></label>
-            <label class="personal"><span>Zip Code:</span><input name="zip" type="number" value="" required></label>
+            <label class="personal"><span>Full Name:</span><input class="padding"name="fullName" type="text" value="" pattern="[a-zA-Z]{5,100}" required></label>
+            <label class="personal"><span>Email:</span><input class="padding" name="email" type="email" value="" placeholder="example@123.com"></label>
+            <label class="personal"><span>Phone Number:</span><input class="padding" name="phoneNumber" type="tel" value="" required></label>
+            <label class="personal"><span>Zip Code:</span><input class="padding" name="zip" type="number" value="" required></label>
 
             <h2>Storm Information</h2>
-            <label class="storm"><span>Storm Date:</span><input name="date" type="date" value=""></label>
+            <label class="storm"><span>Storm Date:</span><input class="padding" name="date" type="date" value=""></label>
 
-            <label class="storm"><span>Storm Type:</span><input name="type" type="text" list="stormType" required></label>
+            <label class="storm"><span>Storm Type:</span><input class="padding" name="type" type="text" list="stormType" required></label>
             <datalist id="stormType">
             <option value="Flash Flood"></option>
             <option value="Hail"></option>
@@ -65,7 +65,7 @@
             <option value="Tornado"></option>
         </datalist>
 
-            <label class="storm"><span>Storm Severity (1-10):</span><input name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span class="rating" id="ratingvalue">5</span></label>
+            <label class="storm"><span>Storm Severity (1-10):</span><input class="padding" name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span class="rating" id="ratingvalue">5</span></label>
 
 
             <label class="storm"><span>Storm Region:</span></label>
@@ -84,7 +84,7 @@
             <label class="storm"><span>Additional Information</span></label>
             <textarea id="textInput" rows="4" cols="50"></textarea>
 
-            <label><input name = "submitButton" class="addition" type="submit" value="Submit"></label>
+            <label><input class="padding" name = "submitButton" class="addition" type="submit" value="Submit"></label>
 
         </form>
 

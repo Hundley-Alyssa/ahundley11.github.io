@@ -1,4 +1,4 @@
-var requestURL = 'http://api.wunderground.com/api/6c6ac0c81e933c9a/conditions/q/MN/Franklin.json';
+var requestURL = 'https://api.wunderground.com/api/6c6ac0c81e933c9a/conditions/q/MN/Franklin.json';
 
 var request = new XMLHttpRequest();
 
