@@ -1,11 +1,10 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
-
+* { box-sizing: border-box;}  
 body {
   font-size: 16px;
     
-  /* Declare the base font-family - from google font api or other */
+
 }
 
 header, nav, main, footer {
@@ -13,45 +12,52 @@ header, nav, main, footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    /* the comma means apply the following CSS declarations to all of the listed elements */
-  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+ 
 }
-main{
-    
-}
-
-header {}
-header h1 {}
-header img {}
-header .subheading {}
-
-nav {}
-nav button {}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #f1f1f1;
-}
-nav ul li {
-    text-align: center;
-}
-nav ul li a {
+.hamburger {
     display: block;
-    color: #000;
+    position: absolute;
+    top: 6.0rem;
+    left: 1.25rem;
+}
+
+.navigation.responsive {
+    position: relative;
+}
+
+.navigation.responsive li {
+    background-color: #f1f1f1;
+    display: block;
+    width: 100%;
+    margin: 2px 0;
+    font-family: Roboto Condensed, sans-serif;
+    color: black;
+}
+
+.navigation.responsive li a {
     padding: 8px 16px;
+    text-align: center;
+    display: block;
     text-decoration: none;
 }
-nav ul li.active a {
-    background-color: aqua;
-    color: white;
-}
-nav ul li a:hover {
-    background-color: aquamarine;
-    color: #fff;
+
+.navigation.responsive li a:hover {
+    background-color: skyblue;
 }
 
+.navigation.responsive li.active a {
+    background-color: navy;
+    color: white;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: none;
+}
 .sunny{
     display: inline-block;
 }
@@ -116,15 +122,3 @@ article img{
     display: inline-block;
     width: 100%;
 }
-section {}
-
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
-}
-
-footer {}
-footer aside {}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
-
-/* Other Class Selectors */
