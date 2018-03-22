@@ -88,10 +88,6 @@ header, nav, main, footer {
     text-align: center;
 }
 
-
-main {}
-main h2 {}
-/*main figure { margin: 0 0 .2rem 2%; width:96%; }*/
 main figure img {
     display: inline-block;
 }
@@ -121,4 +117,8 @@ article p{
 article img{
     display: inline-block;
     width: 100%;
+}
+
+picture img{
+    width: 400px;
 }
