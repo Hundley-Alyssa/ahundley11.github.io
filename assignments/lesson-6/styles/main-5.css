@@ -1,19 +1,26 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  
+* {
+    box-sizing: border-box;
+}
+
 body {
-  font-size: 16px;
-    
+    font-size: 16px;
+
 
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
- 
+
 }
+
 .hamburger {
     display: block;
     position: absolute;
@@ -58,32 +65,35 @@ header, nav, main, footer {
 .navigation li {
     display: none;
 }
-.sunny{
+
+.sunny {
     display: inline-block;
 }
 
-.summary-wrapper{
+.summary-wrapper {
     display: inline-block;
     text-align: left;
     width: 390px;
 }
 
-.summary-wrapper h2{
+.summary-wrapper h2 {
     display: inline-block;
 }
 
-.summary-wrapper figure{
+.summary-wrapper figure {
     display: inline-block;
 }
 
-.summary-wrapper p{
+.summary-wrapper p {
     display: inline-block;
     font-size: 20px;
 }
+
 .current {
     vertical-align: top;
     display: inline-block;
 }
+
 .precipitation {
     text-align: center;
 }
@@ -92,16 +102,17 @@ main figure img {
     display: inline-block;
 }
 
-section.forecast { 
- display: none;   
+section.forecast {
+    display: none;
 }
 
-.forecast h3{
+.forecast h3 {
     background-color: gray;
     height: 50px;
     padding-top: 15px;
 }
-table{
+
+table {
     background-color: azure;
     width: 100%;
 }
@@ -109,16 +120,17 @@ table{
 article {
     border: 2px solid gray;
 }
-article p{
+
+article p {
     display: inline-block;
     vertical-align: top;
 }
 
-article img{
+article img {
     display: inline-block;
     width: 100%;
 }
 
-picture img{
+picture img {
     width: 400px;
 }

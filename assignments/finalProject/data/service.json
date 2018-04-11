@@ -1,0 +1,24 @@
+{
+    "services": [
+        {
+            "name": "Degrease Chain",
+            "price": "$28"
+        },
+        {
+            "name": "Align Wheels",
+            "price": "$14"
+        },
+        {
+            "name": "Inflate Tires",
+            "price": "$7"
+        },
+        {
+            "name": "Adjust Shifter",
+            "price": "$20"
+        },
+        {
+            "name": "Clean Chain",
+            "price": "$24"
+        }
+    ]
+}

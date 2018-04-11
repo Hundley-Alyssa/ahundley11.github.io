@@ -1,0 +1,235 @@
+{
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 16px;
+}
+
+header,
+nav,
+main,
+footer {
+    /*max-width: 800px;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+main h1, h2, h3{
+    font-family: Oswald, sans-serif;
+}
+
+header {
+    display: flex;
+    font-size: 12px;
+    align-content: center;
+    background-color: #104050;
+    color: white;
+    padding: 0;
+}
+
+.header-bar {
+    font-family: Denk One, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header img {
+    width: auto;
+    height: 100px;
+
+}
+
+header .subheading {
+    font-size: 1.4em;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    font-family: Oswald, sans-serif;
+}
+
+.navigation1{
+    padding: 0;
+}
+.navigation li {
+    
+}
+
+#home, #tours, #events, #sales, #service, #contact{
+    background-image: url("../images/bike1.jpg");
+    display: block;
+    margin: 10px;
+    height: 244px;
+    max-width: 600px;
+}
+#tours{
+    background-image: url("../images/bike2.jpg");
+    display: block;
+    margin: 10px;
+    height: 244px;
+    max-width: 600px;
+}
+#events{
+    background-image: url("../images/bike5.jpg");
+    display: block;
+    margin: 10px;
+    height: 244px;
+    max-width: 600px;
+}
+#sales{
+    background-image: url("../images/bike4.jpg");
+    display: block;
+    margin: 10px;
+    height: 244px;
+    max-width: 600px;
+}
+#service{
+    background-image: url("../images/bike3.jpg");
+    display: block;
+    margin: 10px;
+    height: 244px;
+    max-width: 600px;
+}
+#contact{
+    background-image: url("../images/bike6.jpg");
+    display: block;
+    margin: 10px;
+    height: 244px;
+    max-width: 600px;
+}
+.home-img{
+    display:none;
+}
+#continentalDivide{
+    max-width: 100%;
+}
+
+.town-article {
+    /*display: flex;*/
+    vertical-align: top;
+    text-align: center;
+    max-width: 390px;
+    font-size: 20px;
+}
+
+.eventContent {
+    border: 2px solid #306e12;
+    font-family: Oswald, sans-serif;
+    color: #306e12;
+}
+
+.article-content1 {
+    border: 2px solid #306e12;
+    font-family: Roboto Condensed, sans-serif;
+    color: #306e12;
+}
+
+.eventContent2 {
+    border: 2px solid #306e12;
+    font-family: Oswald, sans-serif;
+    color: #306e12;
+}
+
+.index-pic {
+    display: flex;
+    /*  width: 100%;*/
+    padding-bottom: 20px;
+    max-width: 100%;
+
+}
+.header h1{
+    font-family: Oswald, sans-serif;
+    text-align: left;
+    font-size: 50px;
+    text-align: center;
+    color: #184900;
+}
+
+#slider1, #slider2, #slider3 {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#slider1 .slides, #slider2 .slides, #slider3 .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider1 .slide, #slider2 .slide, #slider3 .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+/* helper css, since we don't have images */
+#slider1, #slider2, #slider3{
+    max-width: 100%;
+    border: 5px solid #184900;
+    padding: 20px;
+    margin: 20px;
+}
+
+table{
+    width: 60%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+table, td{
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid #306e12;
+    color: #306e12;
+    align-content: center;
+}
+thead{
+    font-family: Oswald, sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #306e12;
+    color: white;
+}
+table{
+   align-content: center;
+}
+.mountainService{
+    width:100%;
+    padding-bottom: 20px;
+}
+.contactForm{
+    font-family: Oswald, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    
+}
+form label{
+    padding: 20px;
+    font-size: 20px;
+}
+footer{
+    background-color: #104050;
+    color: white;
+    font-family: Oswald, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

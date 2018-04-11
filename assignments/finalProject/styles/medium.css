@@ -1,0 +1,146 @@
+@media only screen and (min-width: 37.5em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown */
+    header {
+        font-size: 16px;
+    }
+    .navigation1{
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        list-style-type: none;
+        margin-top: 15px;
+        padding: 0;
+        width: 100%;
+        background-color: #d48a6a;
+        font-family: Roboto Condensed, sans-serif;
+    }
+    .navigation li {
+        text-align: center;
+        display: flex;
+        flex-grow: 1;
+        border-bottom: #000;
+        height: auto;
+    }
+    .navigation a {
+        margin: auto;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    nav ul li.active a {
+        background-color: white;
+        color: #d48a6a;
+    }
+    .navigation a:hover {
+        background-color: #184900;
+        color: #fff;
+    }
+#home{
+    background-image:none;
+}
+#tours{
+    background-image: none;
+}
+#events{
+    background-image: none;
+}
+#sales{
+    background-image: none;
+}
+#service{
+    background-image: none;
+}
+#contact{
+    background-image: none;
+}
+.home-img{
+     display:block;
+     width: 100%;
+     height: auto;
+    align-items: center;
+    }
+.eventContent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*min-width: 600px;*/
+        flex-basis: 600px;
+    }
+    .article-content1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 600px;
+        flex-basis: 600px;
+    }
+    .eventContent2 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        /*min-width: 600px;*/
+        flex-basis: 600px;
+    }
+    .index-pic{
+        max-width: 50%;
+        height: auto;
+    }
+    .eventHeader{
+        font-size: 50px;
+        color: #306e12;
+    }
+    .event-article {
+        width: 50%;
+    }
+
+    .header h1{
+    text-align: left;
+    padding-left: 20px
+}
+    .header h2{
+    text-align: left;
+    padding-left: 20px
+}
+    .tours-heading{
+        background-color: #306e12;
+        height: 700px;
+        width: 50%;
+        font-family: Oswald, sans-serif;
+        color: white;
+        font-size: 200px;
+        /*display: inline-block;*/
+    } 
+    .tours{
+        
+        font-family: Oswald, sans-serif;
+        width:100%;
+    }
+    .tours h1{
+        background-color: #306e12;
+        font-family: Oswald, sans-serif;
+        color: white;
+        font-size: 50px;
+        /*display: inline-block;*/
+    }
+    .daily-tour{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    .daily-tour img{
+        width: 100%
+    }
+ 
+    tbody{
+    font-size: 50px;
+}
+thead{ 
+    font-size: 80px;
+}
+
