@@ -19,12 +19,15 @@
         background-color: #d48a6a;
         font-family: Oswald, sans-serif;
     }
+    
+
     .navigation li {
         text-align: center;
         display: flex;
         flex-grow: 1;
         border-bottom: #000;
         height: auto;
+        border: none;
     }
     .navigation a {
         margin: auto;

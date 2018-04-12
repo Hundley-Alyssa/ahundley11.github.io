@@ -60,13 +60,23 @@ header .subheading {
     list-style: none;
     padding-left: 0;
     font-family: Oswald, sans-serif;
+    color: white;
+    background-color: #d48a6a;
+}
+.navigation li{
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    
 }
 
 .navigation1{
     padding: 0;
 }
-.navigation li {
-    
+.navigation1 li {
+    font-family: oswald, sans-serif;
+    color: white;
+    font-size: 30px;
 }
 
 #home, #tours, #events, #sales, #service, #contact{
