@@ -37,7 +37,7 @@
         color: #d48a6a;
     }
     .navigation a:hover {
-        background-color: #184900;
+        background-color: #306e12;
         color: #fff;
     }
 #home{
@@ -147,6 +147,14 @@
         padding-top: 60px;
         padding-bottom: auto;
     }
+    
+    #slider1 .slide, #slider2 .slide, #slider3 .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
     tbody{
     font-size: 50px;
 }

@@ -123,6 +123,7 @@ header .subheading {
     font-size: 2.5em;
     font-family: Oswald, sans-serif;
     padding: 20px;
+    
 }
 
 .town-article {
@@ -187,7 +188,7 @@ header .subheading {
 
 #slider1 .slides, #slider2 .slides, #slider3 .slides {
     display: block;
-    width: 6000px;
+    width: 5000px;
     height: 400px;
     margin: 0;
     padding: 0;
@@ -196,7 +197,7 @@ header .subheading {
 #slider1 .slide, #slider2 .slide, #slider3 .slide {
     float: left;
     list-style-type: none;
-    width: 720px;
+    width: 300px;
     height: 400px;
 }
 
