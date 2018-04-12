@@ -17,7 +17,10 @@ footer {
     text-align: center;
     width: 100%;
 }
-main h1, h2, h3{
+
+main h1,
+h2,
+h3 {
     font-family: Oswald, sans-serif;
 }
 
@@ -50,7 +53,8 @@ header img {
 header .subheading {
     font-size: 1.4em;
 }
-.logoMT{
+
+.logoMT {
     padding-right: 10px;
     padding-top: 10px;
     padding-left: 10px;
@@ -63,77 +67,92 @@ header .subheading {
     color: white;
     background-color: #d48a6a;
 }
-.navigation li{
+
+.navigation li {
     color: white;
     padding: 5px;
     border: 2px solid white;
-    
+
 }
 
-.navigation1{
+.navigation1 {
     padding: 0;
 }
+
 .navigation1 li {
     font-family: oswald, sans-serif;
     color: white;
     font-size: 30px;
 }
 
-#home, #tours, #events, #sales, #service, #contact{
+#home,
+#tours,
+#events,
+#sales,
+#service,
+#contact {
     background-image: url("../images/bike1.jpg");
     display: block;
     margin: 10px;
     height: 244px;
     max-width: 600px;
 }
-#tours{
+
+#tours {
     background-image: url("../images/bike2.jpg");
     display: block;
     margin: 10px;
     height: 244px;
     max-width: 600px;
 }
-#events{
+
+#events {
     background-image: url("../images/bike5.jpg");
     display: block;
     margin: 10px;
     height: 244px;
     max-width: 600px;
 }
-#sales{
+
+#sales {
     background-image: url("../images/bike4.jpg");
     display: block;
     margin: 10px;
     height: 244px;
     max-width: 600px;
 }
-#service{
+
+#service {
     background-image: url("../images/bike3.jpg");
     display: block;
     margin: 10px;
     height: 244px;
     max-width: 600px;
 }
-#contact{
+
+#contact {
     background-image: url("../images/bike6.jpg");
     display: block;
     margin: 10px;
     height: 244px;
     max-width: 600px;
 }
-.home-img{
-    display:none;
+
+.home-img {
+    display: none;
 }
-#continentalDivide{
+
+#continentalDivide {
     max-width: 100%;
 }
-.quote{
+
+.quote {
     background-color: #306e12;
     color: white;
     font-size: 2.5em;
     font-family: Oswald, sans-serif;
     padding: 20px;
-    
+
 }
 
 .town-article {
@@ -145,7 +164,7 @@ header .subheading {
 }
 
 .eventContent {
-    
+
     font-family: Oswald, sans-serif;
     color: #306e12;
 }
@@ -157,20 +176,22 @@ header .subheading {
 }
 
 .eventContent2 {
-    
+
     font-family: Oswald, sans-serif;
     color: #306e12;
 }
-.event-article{
+
+.event-article {
     background-color: #306e12;
     color: white;
     padding: 10px;
 }
-.event-article1{
+
+.event-article1 {
     background-color: #d48a6a;
     color: white;
     padding: 10px;
-    
+
 }
 
 .index-pic {
@@ -180,23 +201,30 @@ header .subheading {
     max-width: 100%;
 
 }
-.header h1{
+
+.header h1 {
     font-family: Oswald, sans-serif;
     text-align: left;
     font-size: 50px;
     text-align: center;
     color: #184900;
 }
-.container{
+
+.container {
     font-family: Oswald, sans-serif;
 }
-#slider1, #slider2, #slider3 {
+
+#slider1,
+#slider2,
+#slider3 {
     max-width: 100%;
     height: auto;
     overflow: hidden;
 }
 
-#slider1 .slides, #slider2 .slides, #slider3 .slides {
+#slider1 .slides,
+#slider2 .slides,
+#slider3 .slides {
     display: block;
     width: 5000px;
     height: 400px;
@@ -204,7 +232,9 @@ header .subheading {
     padding: 0;
 }
 
-#slider1 .slide, #slider2 .slide, #slider3 .slide {
+#slider1 .slide,
+#slider2 .slide,
+#slider3 .slide {
     float: left;
     list-style-type: none;
     width: 300px;
@@ -212,19 +242,24 @@ header .subheading {
 }
 
 /* helper css, since we don't have images */
-#slider1, #slider2, #slider3{
+
+#slider1,
+#slider2,
+#slider3 {
     max-width: 100%;
     border: 5px solid #184900;
     padding: 20px;
     margin: 20px;
 }
 
-table{
+table {
     width: 60%;
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-table, td{
+
+table,
+td {
     font-family: Oswald, sans-serif;
     font-size: 20px;
     background-color: white;
@@ -232,7 +267,8 @@ table, td{
     color: #306e12;
     align-content: center;
 }
-thead{
+
+thead {
     font-family: Oswald, sans-serif;
     font-size: 40px;
     padding-top: 40px;
@@ -240,67 +276,80 @@ thead{
     background-color: #306e12;
     color: white;
 }
-table{
-   align-content: center;
+
+table {
+    align-content: center;
 }
-.mountainService{
-    width:100%;
+
+.mountainService {
+    width: 100%;
     padding-bottom: 20px;
 }
-.contactForm{
+
+.contactForm {
     font-family: Oswald, sans-serif;
     display: flex;
     flex-direction: column;
-   /* padding: 10px;*/
+    /* padding: 10px;*/
     align-items: center;
-    
+
 }
-form label{
+
+form label {
     padding: 20px;
     font-size: 20px;
 }
-.tours h1{
-        background-color: #306e12;
-        font-family: Oswald, sans-serif;
-        color: white;
-        font-size: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        /*display: inline-block;*/
+
+.tours h1 {
+    background-color: #306e12;
+    font-family: Oswald, sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*display: inline-block;*/
 }
-.tour1 div{
-        border: 5px solid #d48a6a;
-        margin-left: 20%;
-        margin-right: 20%;
-        color: white;
-        background-color: #d48a6a;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-family: Oswald, sans-serif;
-    }
-    .tour2 div{
-        border: 5px solid #d48a6a;
-        margin-left: 20%;
-        margin-right: 20%;
-        background-color: #d48a6a;
-        color: white;
-        margin-top: 20px;
-        font-family: Oswald, sans-serif;}
- .tour1 img{
-        width: 100%;
-    }
-.tour2 img{
-        width: 100%;
-    }
-.contactPage iFrame{
+
+.tour1 div {
+    border: 5px solid #d48a6a;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    background-color: #d48a6a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Oswald, sans-serif;
+}
+
+.tour2 div {
+    border: 5px solid #d48a6a;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #d48a6a;
+    color: white;
+    margin-top: 20px;
+    font-family: Oswald, sans-serif;
+}
+
+.tour1 img {
     width: 100%;
 }
-.registration-thanks{
+
+.tour2 img {
+    width: 100%;
+}
+
+.contactPage iFrame {
+    width: 100%;
+}
+
+.registration-thanks {
     font-family: Oswald, sans-serif;
     color: #306e12;
     size: 2em;
 }
-footer{
+
+footer {
     background-color: #104050;
     color: white;
     font-family: Oswald, sans-serif;
@@ -309,7 +358,7 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-footer p a{
+
+footer p a {
     color: white;
 }
-
