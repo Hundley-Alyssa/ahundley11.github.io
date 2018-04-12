@@ -50,6 +50,10 @@ header img {
 header .subheading {
     font-size: 1.4em;
 }
+.logoMT{
+    padding-right: 10px;
+    padding-top: 10px;
+}
 
 .navigation {
     list-style: none;
