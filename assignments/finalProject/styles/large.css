@@ -56,7 +56,6 @@
     .event-article1 {
         background-color: #d48a6a;
         color: white;
-
         margin-bottom: 20px
     }
     .event-article {
@@ -68,6 +67,5 @@
         width: 100%;
         font-size: 1.2em;
         margin-top: 20px;
-
-
     }
+}

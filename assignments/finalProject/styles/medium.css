@@ -149,7 +149,6 @@
     .contactPage iframe {
         width: 50%;
         padding-top: 60px;
-        padding-bottom: auto;
     }
 
     #slider1 .slide,
@@ -167,3 +166,4 @@
     thead {
         font-size: 80px;
     }
+}
