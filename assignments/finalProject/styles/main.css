@@ -53,6 +53,7 @@ header .subheading {
 .logoMT{
     padding-right: 10px;
     padding-top: 10px;
+    padding-left: 10px;
 }
 
 .navigation {
@@ -126,7 +127,7 @@ header .subheading {
 }
 
 .eventContent {
-    border: 2px solid #306e12;
+    
     font-family: Oswald, sans-serif;
     color: #306e12;
 }
@@ -138,9 +139,20 @@ header .subheading {
 }
 
 .eventContent2 {
-    border: 2px solid #306e12;
+    
     font-family: Oswald, sans-serif;
     color: #306e12;
+}
+.event-article{
+    background-color: #306e12;
+    color: white;
+    padding: 10px;
+}
+.event-article1{
+    background-color: #d48a6a;
+    color: white;
+    padding: 10px;
+    
 }
 
 .index-pic {
@@ -157,7 +169,9 @@ header .subheading {
     text-align: center;
     color: #184900;
 }
-
+.container{
+    font-family: Oswald, sans-serif;
+}
 #slider1, #slider2, #slider3 {
     max-width: 100%;
     height: auto;
@@ -219,13 +233,49 @@ table{
     font-family: Oswald, sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+   /* padding: 10px;*/
     align-items: center;
     
 }
 form label{
     padding: 20px;
     font-size: 20px;
+}
+.tours h1{
+        background-color: #306e12;
+        font-family: Oswald, sans-serif;
+        color: white;
+        font-size: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /*display: inline-block;*/
+}
+.tour1 div{
+        border: 5px solid #d48a6a;
+        margin-left: 20%;
+        margin-right: 20%;
+        color: white;
+        background-color: #d48a6a;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Oswald, sans-serif;
+    }
+    .tour2 div{
+        border: 5px solid #d48a6a;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #d48a6a;
+        color: white;
+        margin-top: 20px;
+        font-family: Oswald, sans-serif;}
+ .tour1 img{
+        width: 100%;
+    }
+.tour2 img{
+        width: 100%;
+    }
+.contactPage iFrame{
+    width: 100%;
 }
 footer{
     background-color: #104050;

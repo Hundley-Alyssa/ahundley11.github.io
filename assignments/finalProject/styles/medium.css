@@ -75,14 +75,12 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        min-width: 600px;
         flex-basis: 600px;
     }
     .eventContent2 {
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: wrap;
-        /*min-width: 600px;*/
         flex-basis: 600px;
     }
     .index-pic{
@@ -95,6 +93,13 @@
     }
     .event-article {
         width: 50%;
+        font-size: 2em;
+        padding: 0px;
+    }
+    .event-article1{
+        width: 50%;
+        font-size: 1.4em;
+        padding: 0px;
     }
 
     .header h1{
@@ -104,39 +109,42 @@
     .header h2{
     text-align: left;
     padding-left: 20px
-}
-    .tours-heading{
-        background-color: #306e12;
-        height: 700px;
-        width: 50%;
-        font-family: Oswald, sans-serif;
-        color: white;
-        font-size: 200px;
-        /*display: inline-block;*/
     } 
     .tours{
         
         font-family: Oswald, sans-serif;
         width:100%;
     }
-    .tours h1{
-        background-color: #306e12;
-        font-family: Oswald, sans-serif;
-        color: white;
-        font-size: 50px;
-        /*display: inline-block;*/
-    }
+ 
     .daily-tour{
-        width: 50%;
+        width: 100%;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
     
     }
-    .daily-tour img{
-        width: 100%
+    .tour1, .tour2{
+        width: 50%;
+        height: auto;
     }
- 
+    .tour1 img{
+        width: 85%;
+    }
+    .tour2 img{
+        width: 85%;
+    }
+    .contactPage{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;    
+    }
+    .contactPage form{
+        width: 50%;
+    }
+    .contactPage iframe{
+        width: 50%;
+        padding-top: 60px;
+        padding-bottom: auto;
+    }
     tbody{
     font-size: 50px;
 }

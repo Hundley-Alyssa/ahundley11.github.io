@@ -11,8 +11,6 @@
         text-align: center;
     }
     header {
-        font-size: 16px;
-        padding-left: 9%;
         padding-right: 3%;
     }
     .home-images{
@@ -28,6 +26,7 @@
     }
     .eventContent2{
         height: 600px;
+        flex-direction: column-reverse;
     }
 
     .eventInfo {
@@ -45,4 +44,30 @@
     .event-article{
         width: 100%;
     }
+    .event-article{
+    background-color: #306e12;
+    color: white;
+    padding-top: 65px;
+    padding-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+.event-article1{
+    background-color: #d48a6a;
+    color: white;
    
+     margin-bottom: 20px
+    }
+   .event-article {
+        margin-top: 20px;
+        font-size: 1.3em;
+        padding: 0px;
+    }
+    .event-article1{
+        width: 100%;
+        font-size: 1.2em;
+        margin-top: 23px;
+      
+      
+    }
