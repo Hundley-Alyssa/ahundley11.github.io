@@ -295,6 +295,11 @@ form label{
 .contactPage iFrame{
     width: 100%;
 }
+.registration-thanks{
+    font-family: Oswald, sans-serif;
+    color: #306e12;
+    size: 2em;
+}
 footer{
     background-color: #104050;
     color: white;
