@@ -33,7 +33,7 @@ header {
     font-family: Denk One, sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 0px;
 }
 
 header h1 {
@@ -137,8 +137,12 @@ header .subheading {
     max-width: 600px;
 }
 
+.tours div h1{
+    margin-top: 0px;
+}
 .home-img {
     display: none;
+    margin-top: 0px;
 }
 
 #continentalDivide {
